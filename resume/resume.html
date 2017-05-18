@@ -1,0 +1,414 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>吴悦</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						吴悦
+					</h1>
+					<h2>
+						前端开发
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">akumatus@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">156-1897-2926</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="akumatus.github.io">akumatus.github.io</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>对前端技术充满热情，善于沟通合作与解决问题，思维敏捷，拥有较多大型、移动端web项目开发经验。</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/akumatus">akumatus</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Weixin
+					</strong>
+					<div class="username">
+							akumatus
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Baidu</span>
+					<span class="date">
+						2016-7-13 — 2017-5-17
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://vr.baidu.com/open/">https://vr.baidu.com/open/</a>
+				</div>
+				<div class="position">
+					前端开发
+				</div>
+				<div class="summary">
+					<p>负责多条业务线的官网、运营活动、后台系统的前端开发工作，能够因地制宜的进行技术选型，对大型web项目的性能优化、状态管理有较多了解。</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">使用Vue.js、Webpack、ES6开发内部系统，并构建了通用组建库</li>
+					<li class="bullet">从无到有的实现了web全景图片、视频播放解决方案</li>
+					<li class="bullet">采用rem移动端自适应方案</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Baidu</span>
+					<span class="date">
+						2015-5-13 — 2016-7-12
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://zhuomian.baidu.com/">https://zhuomian.baidu.com/</a>
+				</div>
+				<div class="position">
+					前端开发（实习）
+				</div>
+				<div class="summary">
+					<p>参与桌面百度、浏览器的内置页面、插件、通用模版的开发与维护，加深了对模块化、HTTP协议、异步编程的理解。</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">使用FIS作为前端工程化解决方案</li>
+					<li class="bullet">独立的浏览器插件开发能力</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>中国科学院大学</span>
+					<span class="date">
+						2013-09-01 — 2016-06-30
+					</span>
+				</h4>
+				<div class="area">
+					通信与信息系统
+				</div>
+				<div class="studyType">
+					硕士
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>三好学生、Young Idea 二等奖</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>华中科技大学</span>
+					<span class="date">
+						2009-09-01 — 2013-6-30
+					</span>
+				</h4>
+				<div class="area">
+					电信信息工程
+				</div>
+				<div class="studyType">
+					本科
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>CET6、软件设计师（中级）、四级网络工程师</li>
+					<li>校优秀毕业生、校优秀学生干部</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Languages &amp; Framework</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML5</li>
+					<li>CSS3、LESS</li>
+					<li>ECMAScript 6</li>
+					<li>Node.js</li>
+					<li>jQuery、Vue.js、Three.js</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Tools</h4>
+				</div>
+				<ul class="keywords">
+					<li>Git、SVN</li>
+					<li>Fiddler、Weinre、Chrome</li>
+					<li>FIS、Webpack</li>
+					<li>Sketch、Fireworks、PhotoShop</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+	
+
+	</div>
+	
+	</body>
+</html>

@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+dist/
+admin/
+npm-debug.log
+.idea/
+**/*compiled.js*
+dist.tar.gz
+**.tar.gz
