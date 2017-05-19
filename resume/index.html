@@ -243,7 +243,7 @@ h4 span:first-child {
 			<h3>About</h3>
 		</aside>
 		<div class="col-sm-9">
-			<p>对前端技术充满热情，善于沟通合作与解决问题，思维敏捷，拥有较多大型、移动端web项目开发经验。</p>
+			<p>开源爱好者，充满好奇心，善于沟通合作与解决问题，拥有较多大型、移动端web项目开发经验。</p>
 		</div>
 	</section>
 
@@ -272,8 +272,9 @@ h4 span:first-child {
 					</div>
 					<ul class="keywords">
 						<li>Git、SVN</li>
+						<li>shell</li>
 						<li>Fiddler、Weinre、Chrome</li>
-						<li>FIS、Webpack</li>
+						<li>FIS、webpack</li>
 						<li>npm、Yarn</li>
 						<li>Sketch、Fireworks、PhotoShop</li>
 					</ul>
@@ -302,37 +303,48 @@ h4 span:first-child {
 					前端开发
 				</div>
 				<div class="summary">
-					<p>负责多条业务线的官网、运营活动、后台系统的前端开发工作，能够因地制宜的进行技术选型，对大型web项目的性能优化、状态管理有较多了解。</p>
+					<p>负责移动APP的官网、运营活动、后台系统的前端开发工作，能够因地制宜的进行技术选型，快速学习与开发。</p>
 				</div>
 				<h5>
 					－ 百度VR浏览器
 					<div class="website pull-right">
 						<a href="https://vr.baidu.com/m/">移动官网</a>／
 						<a href="https://vr.baidu.com/open/">直播sdk官网</a>／
-						<a href="https://vr.baidu.com/h5/film/">电影落地页</a>
+						<a href="https://vr.baidu.com/h5/film/">电影落地页</a>／
+						<a href="https://vr.baidu.com/h5/share/?id=612">资源分享页</a>
 					</div>
 				</h5>
 				<ul class="highlights">
-					<li class="bullet">从无到有的web全景图片、视频播放解决方案</li>
-					<li class="bullet">采用rem移动端自适应方案</li>
-					<li class="bullet">按需加载、资源压缩、动画性能上的极致优化</li>
+					<li class="bullet">快速学习和使用Three.js，输出web全景图片、视频播放解决方案</li>
+					<li class="bullet">封装js与native之间的底层通信接口，输出jssdk文档</li>
+					<li class="bullet">调用微信jssdk接口定制分享页的图片、标题与描述</li>
+					<li class="bullet">从按需加载、资源压缩、函数节流等多个角度进行了性能优化，页面FPS基本保持稳定</li>
+				</ul>
+				<h5>
+					－ 爆笑黄人
+				</h5>
+				<ul class="highlights">
+					<li class="bullet">兑换中心改版，增加提现红包功能，结合手势判断优化点击操作</li>
+					<li class="bullet">送红包运营活动，采用rem自适应布局方案</li>
 				</ul>
 				<h5>
 					－ 内部运营后台
 					<div class="website pull-right">
+						<a href="./image.html#heicha">VR内容运营</a>／
 						<a href="./image.html#mofang">魔方数据平台</a>／
-						<a href="./image.html#heicha">VR内容运营后台</a>
+						<a href="./image.html#mofang">爆笑黄人运营</a>
 					</div>
 				</h5>
 				<ul class="highlights">
-					<li class="bullet">选用Vue.js、Webpack、ES6进行开发</li>
-					<li class="bullet">可复用的基础开发模版、通用的组建库和表单验证解决方案</li>
-					<li class="bullet">同时充当交互、设计、开发三个角色</li>
+					<li class="bullet">基于Vue.js开发单页面应用，配合vue-router、vuex解决路由和状态管理问题</li>
+					<li class="bullet">使用webpack作为打包工具，结合npm scripts进行编译和部署</li>
+					<li class="bullet">提供友好的UI界面供运营使用</li>
+					<li class="bullet">产出详细的开发文档、通用的组建库和表单验证解决方案</li>
 				</ul>
 			</div>
 			<div class="col-sm-12">
 				<h4 class="strike-through">
-					<span>百度－客户端软件部</span>
+					<span>百度－用户产品部</span>
 					<span class="date">
 						2015-5-13 — 2016-7-12
 					</span>
@@ -344,7 +356,7 @@ h4 span:first-child {
 					前端开发（实习）
 				</div>
 				<div class="summary">
-					<p>参与桌面百度、浏览器的内置页面、插件、通用模版的开发与维护，加深了对模块化、HTTP协议、异步编程的理解，具备独立开发浏览器插件的能力。</p>
+					<p>参与PC线浏览器的内置页面、插件的开发与维护，加深了对模块化、HTTP协议、异步编程的理解，具备独立开发浏览器插件的能力。</p>
 				</div>
 				<h5>
 					－ 桌面百度
@@ -353,9 +365,18 @@ h4 span:first-child {
 					</div>
 				</h5>
 				<ul class="highlights">
-					<li class="bullet">使用FIS作为前端工程化解决方案</li>
-					<li class="bullet">首屏加载速度优化</li>
-					<li class="bullet">低版本IE极佳的兼容效果</li>
+					<li class="bullet">提升静态模板的可复用性，日常维护数量降至原来的1/3，优化模板部署方式</li>
+					<li class="bullet">移植历史记录功能，维护与客户端间通信的jssdk</li>
+					<li class="bullet">使用FIS作为前端工程化解决方案，对PC官网首屏加载优化至500ms内，能够兼容低版本浏览器动画</li>
+				</ul>
+
+				<h5>
+					－ 百度浏览器
+				</h5>
+				<ul class="highlights">
+					<li class="bullet">抢小米插件的维护和升级，使用fiddler抓包分析请求，根据抢购策略变化云控调整代码逻辑</li>
+					<li class="bullet">视频直播插件开发，使用js注入解决页面间的通讯问题，能够订阅和推送消息</li>
+					<li class="bullet">开发浏览器接口健康检测插件，供测试使用，减少了重复性的工作量</li>
 				</ul>
 			</div>
 			</div>
@@ -413,14 +434,20 @@ h4 span:first-child {
 						<a href="https://github.com/akumatus/FilterBuilder">FilterBuilder</a>
 					</strong>
 					<div class="email">
-						一个可视化SQL语句构建组件
+						可视化SQL语句构建组件
 					</div>
 				</div>
 				<div class="col-sm-6">
 					<strong>
 						<a href="https://github.com/akumatus/es6-start-up-slides">ES6入门</a>
 					</strong>
-					<div class="phone">一个ECMAScript 6 分享</div>
+					<div class="phone">ECMAScript 6技术分享</div>
+				</div>
+				<div class="col-sm-6">
+					<strong>
+						<a href="https://github.com/akumatus/HttpReportsTester">HttpReportsTester</a>
+					</strong>
+					<div class="phone">HTTP数据上报测试框架</div>
 				</div>
 			</div>
 		</div>
